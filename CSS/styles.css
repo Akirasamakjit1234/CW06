@@ -16,7 +16,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #e3e3e3;
+    background-color: #70116a;
     padding: 10px;
     color: rgb(229, 224, 224);
 }
@@ -37,7 +37,7 @@ body {
     padding: 5px 10px;
     background-color: #7f7e7f;
     border: none;
-    color: rgb(255, 255, 255);
+    color: rgb(159, 0, 0);
     cursor: pointer;
 }
 
@@ -71,8 +71,8 @@ body {
     width: 100%;
     padding: 15px;
     margin-bottom: 15px;
-    background-color: #5a57bd;
-    color: #847ec4;
+    background-color: #bdbdbd;
+    color: #ebebf4;
     border: none;
     cursor: pointer;
     font-weight: bold;
