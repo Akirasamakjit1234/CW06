@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    background-color: #a672f9;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e3e3e3;
+    padding: 10px;
+    color: rgb(229, 224, 224);
+}
+
+.navbar .menu a {
+    background: var(--dark);
+    color: rgb(188, 188, 188);
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.navbar .search input {
+    padding: 5px;
+}
+
+.navbar .search button {
+    padding: 5px 10px;
+    background-color: #7f7e7f;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    background-color:#f5dbff;
+    color: rgb(65, 65, 65);
+    padding: 10px 10px;
+}
+
+/* Main Section */
+.main {
+    display: flex;
+}
+
+/* Content */
+.content {
+    flex: auto;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+}
+/* 
+
+/* Sidebar */
+.sidebar {
+    flex: 0.5;
+    background-color: #cee7ff;
+    padding: 20px;
+}
+
+.sidebar button {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #5a57bd;
+    color: #847ec4;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: auto;
+    text-align: left;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4db6d6;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+.total {
+    background-color: #6ac9e0;
+    font-weight: bold;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    background-color: #38a3e6;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/* register */
+.register {
+    background-color: rgb(158, 255, 60);
+    color: white;
+    padding: 7px 62px;
+    border: none;
+    cursor: pointer;
+}
+
+/* cancel */
+.cancel {
+    background-color: rgb(176, 14, 46);
+    color: white;
+    padding: 7px 68px;
+    border: none;
+    cursor: pointer;
+}
